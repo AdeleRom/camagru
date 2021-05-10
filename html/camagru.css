@@ -1,0 +1,125 @@
+*{padding: 0; margin: 0;}
+			h1
+			{
+				font-size: 56;
+			}
+			p{
+				font-size: 16;
+			}
+			.login 
+			{
+				display: grid;
+				grid-template-columns: 1fr 2fr 1fr;
+				/* grid-gap: 0.1em; */
+				grid-auto-rows: minmax(100%, auto);
+				/* grid-auto-rows:  100%; */
+
+				font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+  				font-weight: 400;
+				color: #A004FF;
+				/* background-color: #A004FF; */
+				background-color: #19181E;
+				
+			}
+			.login > div
+			{
+				/* padding:; */
+				background-color: #19181E;
+				
+			}
+			.block-login
+			{
+				
+				border: 1px solid #A004FF;
+            	border-radius: 13px;
+            	
+			}
+			.box-header
+			{
+				font-size: 40px;
+				/* padding-top: 7% ; */
+				text-align: center;
+			}
+			.box-login
+			{
+				font-size: 16px;
+				text-align: start;
+				padding: 2% 20px 2% 16px;
+
+
+			}
+			.box-password
+			{
+				padding: 2% 20px 2% 16px;
+			}
+			.button-off
+			{
+				background-color: #19181E;
+				text-align: center;
+				color: white;
+				grid-column: end;
+				width: 50%;
+				height: 40px;
+				padding-top: 20px;
+				margin: 2%;
+				border: 1px solid rgba(181, 75, 246, 1);
+            	border-radius: 13px;
+
+			}
+			.button
+			{
+				
+				background-color: #A004FF;
+				text-align: center;
+				color: white;
+				/* grid-column: end; */
+				width: 50%;
+				height: 40px;
+				background: linear-gradient(180deg, #8F20B6 0%, #A004FF 79.17%),
+            	linear-gradient(180deg, #8F20B6 0%, #A42DED 100%),
+            	linear-gradient(0deg, #9B29F4, #9B29F4);
+            	border: 1px solid rgba(181, 75, 246, 1);
+            	border-radius: 13px;
+				padding-top: 20px;	
+				margin: 2%;			
+			}
+			.box-forgot
+			{
+				/* grid-column: 1/2; */
+				text-align: center;
+				color: white;
+				text-align: right;
+				margin: 1%;
+
+			}
+			.button-panel
+			{
+				display: flex;
+				align-content: center;
+			}
+			.field
+			{
+				border: 1px solid rgba(181, 75, 246, 1);
+            	border-radius: 13px;
+				background-color: #19181E;
+				height: 40px;
+				width: 100%;
+				/* margin: 1%; */
+				/* text-align: center */
+			}
+			.button-reset
+			{
+				background-color: #A004FF;
+				text-align: center;
+				color: white;
+				/* grid-column: end; */
+				width: 93%;
+				height: 40px;
+				background: linear-gradient(180deg, #8F20B6 0%, #A004FF 79.17%),
+            	linear-gradient(180deg, #8F20B6 0%, #A42DED 100%),
+            	linear-gradient(0deg, #9B29F4, #9B29F4);
+            	border: 1px solid rgba(181, 75, 246, 1);
+            	border-radius: 13px;
+				padding-top: 20px;	
+				margin: 4%;			
+			}
